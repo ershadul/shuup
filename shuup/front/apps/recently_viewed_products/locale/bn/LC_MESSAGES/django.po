@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-12 11:39+0000\n"
+"POT-Creation-Date: 2019-06-16 14:35+0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,11 +18,10 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
+#: front/apps/recently_viewed_products/__init__.py:16
 msgid "Shuup Frontend - Recently Viewed Products"
 msgstr ""
 
+#: front/apps/recently_viewed_products/plugins.py:17
 msgid "Recently Viewed Products List"
-msgstr ""
-
-msgid "Recently viewed products"
 msgstr ""

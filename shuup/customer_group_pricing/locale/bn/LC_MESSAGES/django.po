@@ -1,16 +1,16 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Tariq Mostahid <tariq@committers.com>, 2019.
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-12 11:39+0000\n"
+"POT-Creation-Date: 2019-06-16 14:35+0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Last-Translator: Tariq Mostahid <tariq@committers.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
@@ -18,71 +18,69 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
+#: customer_group_pricing/__init__.py:16
 msgid "Shuup Customer Group Pricing"
 msgstr ""
 
+#: customer_group_pricing/admin_form_part.py:52
 #, python-format
 msgid "Price (%(shop)s/%(group)s)"
 msgstr ""
 
+#: customer_group_pricing/admin_form_part.py:133
 #, python-format
 msgid "Discount (%(shop)s/%(group)s)"
 msgstr ""
 
+#: customer_group_pricing/api.py:67
 msgid "Customer Group Price"
 msgstr ""
 
+#: customer_group_pricing/api.py:71
 msgid ""
 "Customer group prices can be listed, fetched, created, updated and deleted."
 msgstr ""
 
+#: customer_group_pricing/models.py:19
 msgid "product"
 msgstr ""
 
+#: customer_group_pricing/models.py:20
 msgid "shop"
 msgstr ""
 
+#: customer_group_pricing/models.py:22
 msgid "contact group"
 msgstr ""
 
+#: customer_group_pricing/models.py:31
 msgid "price"
 msgstr ""
 
+#: customer_group_pricing/models.py:35
 msgid "product price"
 msgstr ""
 
+#: customer_group_pricing/models.py:36
 msgid "product prices"
 msgstr ""
 
+#: customer_group_pricing/models.py:56
 msgid "discount amount"
 msgstr ""
 
+#: customer_group_pricing/models.py:60
 msgid "product discount"
 msgstr ""
 
+#: customer_group_pricing/models.py:61
 msgid "product discounts"
 msgstr ""
 
+#: customer_group_pricing/module.py:20
 msgid "Customer Group Pricing"
 msgstr ""
 
+#: customer_group_pricing/module.py:59
 msgid "Customer Group Discount"
-msgstr ""
-
-msgid "Contact Group Discount"
-msgstr ""
-
-msgid ""
-"Here you can set individual discount amounts for different contact groups. "
-"The discount amount may be visible on storefront. These groups are defined "
-"in Contacts Settings – Contact Groups"
-msgstr ""
-
-msgid "Contact Group Pricing"
-msgstr ""
-
-msgid ""
-"Here you can set individual pricing for different contact groups. This can "
-"be useful for special discounts or for B2B orders. These groups are defined "
-"in Contacts Settings – Contact Groups"
 msgstr ""

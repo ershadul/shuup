@@ -1,16 +1,16 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Tariq Mostahid <tariq@committers.com>, 2019.
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-12 11:39+0000\n"
+"POT-Creation-Date: 2019-06-16 14:35+0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Last-Translator: Tariq Mostahid <tariq@committers.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
@@ -18,81 +18,34 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
+#: api/admin_module/__init__.py:18 api/admin_module/__init__.py:32
 msgid "API"
 msgstr ""
 
+#: api/admin_module/forms.py:22
 msgid "Disabled"
 msgstr ""
 
+#: api/admin_module/forms.py:23
 msgid "Admin Users"
 msgstr ""
 
+#: api/admin_module/forms.py:24
 msgid "Authenticated Users - Read/Write"
 msgstr ""
 
+#: api/admin_module/forms.py:25
 msgid "Authenticated Users - Read only"
 msgstr ""
 
+#: api/admin_module/forms.py:26
 msgid "Public Users - Read/Write"
 msgstr ""
 
+#: api/admin_module/forms.py:27
 msgid "Public Users - Read only"
 msgstr ""
 
+#: api/admin_module/views/permissions.py:23
 msgid "API permissions saved"
-msgstr ""
-
-msgid "API Permissions"
-msgstr ""
-
-msgid "Configure API permissions"
-msgstr ""
-
-msgid ""
-"Please, configure the API permission level for each service by selecting the "
-"level below."
-msgstr ""
-
-msgid "Note:"
-msgstr ""
-
-msgid "No one can make requests."
-msgstr ""
-
-msgid "Admin users"
-msgstr ""
-
-msgid ""
-"Only administrators can make requests to the API to fetch, save, delete or "
-"update data."
-msgstr ""
-
-msgid "Authenticated users - Read/Write"
-msgstr ""
-
-msgid "Any authenticated user can fetch, save, delete or update data."
-msgstr ""
-
-msgid "Authenticated users - Read"
-msgstr ""
-
-msgid "Any authenticated user can only fetch data."
-msgstr ""
-
-msgid "Public users - Read/Write"
-msgstr ""
-
-msgid "Any user (authenticated or not) can fetch, save, delete or update data."
-msgstr ""
-
-msgid "Use this with caution."
-msgstr ""
-
-msgid "Public users - Read"
-msgstr ""
-
-msgid "Any user (authenticated or not) can only fetch data."
-msgstr ""
-
-msgid "Save"
 msgstr ""

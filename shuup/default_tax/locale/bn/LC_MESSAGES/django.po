@@ -1,16 +1,16 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Tariq Mostahid <tariq@committers.com>, 2019.
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-12 11:39+0000\n"
+"POT-Creation-Date: 2019-06-16 14:35+0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Last-Translator: Tariq Mostahid <tariq@committers.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
@@ -18,89 +18,118 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
+#: default_tax/__init__.py:16
 msgid "Shuup Default Tax"
 msgstr ""
 
+#: default_tax/admin_module/__init__.py:19
+#: default_tax/admin_module/__init__.py:32
 msgid "Tax Rules"
 msgstr ""
 
+#: default_tax/admin_module/__init__.py:37
 msgid "Show tax rules"
 msgstr ""
 
+#: default_tax/admin_module/views.py:37
 msgid "Use ISO 3166-1 country codes (US, FI etc.)"
 msgstr ""
 
+#: default_tax/admin_module/views.py:42
 msgid "Use two letter state codes for the US"
 msgstr ""
 
+#: default_tax/admin_module/views.py:66
 msgid "Tax Rule"
 msgstr ""
 
+#: default_tax/admin_module/views.py:67
 msgid "Tax"
 msgstr ""
 
+#: default_tax/admin_module/views.py:68
 msgid "Tax Classes"
 msgstr ""
 
+#: default_tax/admin_module/views.py:69
 msgid "Customer Tax Groups"
 msgstr ""
 
+#: default_tax/admin_module/views.py:70
 msgid "Countries"
 msgstr ""
 
+#: default_tax/admin_module/views.py:71
 msgid "Regions"
 msgstr ""
 
+#: default_tax/admin_module/views.py:72
 msgid "Postal Codes"
 msgstr ""
 
+#: default_tax/admin_module/views.py:73
 msgid "Priority"
 msgstr ""
 
+#: default_tax/admin_module/views.py:74
 msgid "Override Group"
 msgstr ""
 
+#: default_tax/admin_module/views.py:75
 msgid "Enabled"
 msgstr ""
 
+#: default_tax/models.py:29
 msgid "enabled"
 msgstr ""
 
+#: default_tax/models.py:30
 msgid "Check this if this tax rule is active."
 msgstr ""
 
+#: default_tax/models.py:35
 msgid "tax classes"
 msgstr ""
 
+#: default_tax/models.py:36
 msgid "Tax classes of the items to be taxed"
 msgstr ""
 
+#: default_tax/models.py:39
 msgid "customer tax groups"
 msgstr ""
 
+#: default_tax/models.py:40
 msgid "The customer tax groups for which this tax rule is limited."
 msgstr ""
 
+#: default_tax/models.py:43
 msgid "country codes pattern"
 msgstr ""
 
+#: default_tax/models.py:46
 msgid "region codes pattern"
 msgstr ""
 
+#: default_tax/models.py:48
 msgid "postal codes pattern"
 msgstr ""
 
+#: default_tax/models.py:55
 msgid "priority"
 msgstr ""
 
+#: default_tax/models.py:56
 msgid ""
 "Rules with same priority define added taxes (e.g. US taxes) and rules with "
 "different priority define compound taxes (e.g. Canada Quebec PST case)"
 msgstr ""
 
+#: default_tax/models.py:61
 msgid "override group number"
 msgstr ""
 
+#: default_tax/models.py:62
 msgid ""
 "If several rules match, only the rules with the highest override group "
 "number will be effective.  This can be used, for example, to implement tax "
@@ -108,69 +137,18 @@ msgid ""
 "tax."
 msgstr ""
 
+#: default_tax/models.py:66
 msgid "tax"
 msgstr ""
 
+#: default_tax/models.py:67
 msgid "The tax to apply when this rule is applied."
 msgstr ""
 
+#: default_tax/models.py:101
 msgid "Tax rule {} ({})"
 msgstr ""
 
+#: default_tax/module.py:21
 msgid "Default Taxation"
-msgstr ""
-
-msgid "Tax rule information"
-msgstr ""
-
-msgid "Matching criteria"
-msgstr ""
-
-msgid "Grouping"
-msgstr ""
-
-msgid "Applied tax"
-msgstr ""
-
-msgid ""
-"\n"
-"            The following fields determine when this rule applies.  All\n"
-"            non-empty fields must match for the rule to apply.  Empty fields "
-"are\n"
-"            not considered, e.g. if \"Customer tax groups\" is left empty, "
-"all\n"
-"            customer tax groups will match.\n"
-"        "
-msgstr ""
-
-msgid ""
-"\n"
-"            Pattern can be a single value or a comma separated list of "
-"items,\n"
-"            where each item can be a single value or a range, such as\n"
-"            \"value1-value2\".  Special value \"*\" matches everything.  "
-"For\n"
-"            example, a pattern \"1,2,50-90\" will match values \"1\" and "
-"\"2\", and\n"
-"            \"50\", \"90\", and everything between.  The range uses "
-"alphabetical\n"
-"            ordering unless start, end and the string to be matched are all\n"
-"            numerical, i.e. \"50-90\" will match also \"6a\" and \"700X\", "
-"since they\n"
-"            are alphabetically between \"50\" and \"90\", but it will not "
-"match\n"
-"            \"700000\" since for numerical items natural numeric ordering is "
-"used.\n"
-"        "
-msgstr ""
-
-msgid ""
-"\n"
-"            Use the following fields to configure added or compounded\n"
-"            taxes (when several taxes apply for an item), or to create a\n"
-"            tax rule or a set of tax rules that override other tax rules.\n"
-"        "
-msgstr ""
-
-msgid "When this rule applies, apply the following tax."
 msgstr ""

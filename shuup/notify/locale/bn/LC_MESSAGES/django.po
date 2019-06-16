@@ -1,16 +1,16 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Tariq Mostahid <tariq@committers.com>, 2019.
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-12 11:39+0000\n"
+"POT-Creation-Date: 2019-06-16 14:35+0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Last-Translator: Tariq Mostahid <tariq@committers.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
@@ -18,325 +18,357 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
+#: notify/actions/email.py:24
 msgid "Plain text"
 msgstr ""
 
+#: notify/actions/email.py:25
 msgid "HTML"
 msgstr ""
 
+#: notify/actions/email.py:31 notify/script_template/generic.py:25
 msgid "Subject"
 msgstr ""
 
+#: notify/actions/email.py:32
 msgid "Email Body"
 msgstr ""
 
+#: notify/actions/email.py:34
 msgid "Content type"
 msgstr ""
 
+#: notify/actions/email.py:39
 msgid "Recipient"
 msgstr ""
 
+#: notify/actions/email.py:40
 msgid "Reply-To"
 msgstr ""
 
+#: notify/actions/email.py:41 notify/typology.py:88
 msgid "Language"
 msgstr ""
 
+#: notify/actions/email.py:43
 msgid "Fallback language"
 msgstr ""
 
+#: notify/actions/email.py:46
 msgid "Send Identifier"
 msgstr ""
 
+#: notify/actions/email.py:48
 msgid ""
 "If set, this identifier will be logged into the event's log target. If the "
 "identifier has already been logged, the e-mail won't be sent again."
 msgstr ""
 
+#: notify/admin_module/__init__.py:30 notify/admin_module/__init__.py:74
 msgid "Notifications"
 msgstr ""
 
+#: notify/admin_module/__init__.py:78
 msgid "Show notification scripts"
 msgstr ""
 
+#: notify/admin_module/forms.py:25 notify/admin_module/views/list.py:31
+#: notify/admin_module/views/list.py:60
 msgid "Event"
 msgstr ""
 
+#: notify/admin_module/forms.py:26
 msgid "Choose which event to bind this script to."
 msgstr ""
 
+#: notify/admin_module/forms.py:29
 msgid "Script Name"
 msgstr ""
 
+#: notify/admin_module/forms.py:30
 msgid "Type in a descriptive name for your new script."
 msgstr ""
 
+#: notify/admin_module/forms.py:33
 msgid "Enable Script"
 msgstr ""
 
+#: notify/admin_module/forms.py:34
 msgid "Choose whether this script should be activated when its event fires."
 msgstr ""
 
+#: notify/admin_module/forms.py:50
 msgid ""
 "Warning: Changing the event for an existing script may have unexpected "
 "effects."
 msgstr ""
 
+#: notify/admin_module/forms.py:84
 msgid "Template"
 msgstr ""
 
+#: notify/admin_module/forms.py:127
 msgid "Bind to Variable"
 msgstr ""
 
+#: notify/admin_module/forms.py:200
 msgid "This field is missing content"
 msgstr ""
 
+#: notify/admin_module/views/edit.py:36
 msgid "Edit Script Contents"
 msgstr ""
 
+#: notify/admin_module/views/edit.py:46
 msgid "Edit Script (advanced)"
 msgstr ""
 
+#: notify/admin_module/views/edit.py:50
 msgid "Edit Template"
 msgstr ""
 
+#: notify/admin_module/views/editor.py:123
 msgid "Save"
 msgstr ""
 
+#: notify/admin_module/views/list.py:30
 msgid "Name"
 msgstr ""
 
+#: notify/admin_module/views/list.py:32 notify/admin_module/views/list.py:61
 msgid "Enabled"
 msgstr ""
 
+#: notify/admin_module/views/list.py:48
 msgid "New Script"
 msgstr ""
 
+#: notify/admin_module/views/list.py:52
 msgid "New From Template"
 msgstr ""
 
+#: notify/admin_module/views/template.py:64
+#: notify/admin_module/views/template.py:112
 msgid "Script created from template!"
 msgstr ""
 
+#: notify/admin_module/views/template.py:68
+#: notify/admin_module/views/template.py:89
 msgid "Template Script not found!"
 msgstr ""
 
+#: notify/admin_module/views/template.py:142
 msgid "Templated script not found!"
 msgstr ""
 
+#: notify/admin_module/views/template.py:161
 msgid "Script updated!"
 msgstr ""
 
+#: notify/conditions/simple.py:21
 msgid ""
 "Check whether the bound value `value` exists and is non-empty and non-zero."
 msgstr ""
 
+#: notify/conditions/simple.py:22
 msgid "Non-Empty"
 msgstr ""
 
+#: notify/conditions/simple.py:31
 msgid "Check whether the bound value `value` is empty or zero."
 msgstr ""
 
+#: notify/conditions/simple.py:32
 msgid "Empty"
 msgstr ""
 
+#: notify/enums.py:21 notify/enums.py:54
 msgid "none"
 msgstr ""
 
+#: notify/enums.py:22
 msgid "unilingual"
 msgstr ""
 
+#: notify/enums.py:23
 msgid "multilingual"
 msgstr ""
 
+#: notify/enums.py:32
 msgid "variable only"
 msgstr ""
 
+#: notify/enums.py:33
 msgid "constant only"
 msgstr ""
 
+#: notify/enums.py:34
 msgid "variable or constant"
 msgstr ""
 
+#: notify/enums.py:42
 msgid "continue to the next step"
 msgstr ""
 
+#: notify/enums.py:43
 msgid "stop processing"
 msgstr ""
 
+#: notify/enums.py:52
 msgid "all"
 msgstr ""
 
+#: notify/enums.py:53
 msgid "any"
 msgstr ""
 
+#: notify/enums.py:62
 msgid "any shop administrator"
 msgstr ""
 
+#: notify/enums.py:63
 msgid "a specific user"
 msgstr ""
 
+#: notify/enums.py:73
 msgid "low"
 msgstr ""
 
+#: notify/enums.py:74
 msgid "normal"
 msgstr ""
 
+#: notify/enums.py:75
 msgid "high"
 msgstr ""
 
+#: notify/enums.py:76
 msgid "critical"
 msgstr ""
 
+#: notify/models/notification.py:46 notify/models/script.py:22
 msgid "shop"
 msgstr ""
 
+#: notify/models/notification.py:47
 msgid "recipient type"
 msgstr ""
 
+#: notify/models/notification.py:50
 msgid "recipient"
 msgstr ""
 
+#: notify/models/notification.py:52 notify/models/script.py:25
 msgid "created on"
 msgstr ""
 
+#: notify/models/notification.py:53
 msgid "message"
 msgstr ""
 
+#: notify/models/notification.py:55
 msgid "priority"
 msgstr ""
 
+#: notify/models/notification.py:58
 msgid "marked read"
 msgstr ""
 
+#: notify/models/notification.py:61
 msgid "marked read by"
 msgstr ""
 
+#: notify/models/notification.py:63
 msgid "marked read on"
 msgstr ""
 
+#: notify/models/script.py:23
 msgid "event identifier"
 msgstr ""
 
+#: notify/models/script.py:26
 msgid "name"
 msgstr ""
 
+#: notify/models/script.py:27
 msgid "enabled"
 msgstr ""
 
+#: notify/models/script.py:30
 msgid "template identifier"
 msgstr ""
 
+#: notify/models/script.py:31
 msgid "the template identifier used to create this script"
 msgstr ""
 
+#: notify/script_template/generic.py:26
 msgid "The subject of the email"
 msgstr ""
 
+#: notify/script_template/generic.py:27
 msgid "Email content"
 msgstr ""
 
+#: notify/script_template/generic.py:29
 msgid "The content of the email."
 msgstr ""
 
+#: notify/script_template/generic.py:37
 msgid "Customer"
 msgstr ""
 
+#: notify/script_template/generic.py:38
 msgid "Other destination"
 msgstr ""
 
+#: notify/script_template/generic.py:40
 msgid "Send to?"
 msgstr ""
 
+#: notify/script_template/generic.py:44
 msgid ""
 "You can send this email to the customer or to other email of your choice."
 msgstr ""
 
+#: notify/script_template/generic.py:46
 msgid "Destination"
 msgstr ""
 
+#: notify/script_template/generic.py:48
 msgid "Fill with the destination email address."
 msgstr ""
 
+#: notify/script_template/generic.py:56
 msgid ""
 "Recipient is a required field when you don't want to send the email to "
 "customer."
 msgstr ""
 
-msgid "Edit Script Information"
-msgstr ""
-
-msgid "Create a new script"
-msgstr ""
-
-msgid "Script Details"
-msgstr ""
-
-msgid "OK"
-msgstr ""
-
-msgid "Show available variables"
-msgstr ""
-
-msgid "Close"
-msgstr ""
-
-msgid "Select the script template to be created"
-msgstr ""
-
-msgid "Cancel"
-msgstr ""
-
-msgid "Edit Script"
-msgstr ""
-
-msgid "Edit Step"
-msgstr ""
-
-msgid "Done"
-msgstr ""
-
-msgid "Please correct the errors below."
-msgstr ""
-
-msgid "Variables"
-msgstr ""
-
-msgid "Save changes"
-msgstr ""
-
-msgid "Script Template: {}"
-msgstr ""
-
-msgid "Configure the Script Template"
-msgstr ""
-
-msgid "Modify Script"
-msgstr ""
-
-msgid "Create Script"
-msgstr ""
-
-msgid "Create"
-msgstr ""
-
+#: notify/typology.py:55
 msgid "Boolean"
 msgstr ""
 
+#: notify/typology.py:63
 msgid "Integer Number"
 msgstr ""
 
+#: notify/typology.py:71
 msgid "Decimal Number"
 msgstr ""
 
+#: notify/typology.py:79
 msgid "Text"
 msgstr ""
 
+#: notify/typology.py:93
 msgid "Email Address"
 msgstr ""
 
+#: notify/typology.py:101
 msgid "URL Address"
 msgstr ""
 
+#: notify/typology.py:109
 msgid "Phone Number"
 msgstr ""

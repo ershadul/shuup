@@ -1,16 +1,16 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Tariq Mostahid <tariq@committers.com>, 2019.
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-12 11:39+0000\n"
+"POT-Creation-Date: 2019-06-16 14:35+0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Last-Translator: Tariq Mostahid <tariq@committers.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
@@ -18,156 +18,160 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
+#: tasks/admin_module/__init__.py:25 tasks/admin_module/__init__.py:49
+#: tasks/admin_module/__init__.py:100
 msgid "Tasks"
 msgstr ""
 
+#: tasks/admin_module/__init__.py:54
 msgid "Show Tasks"
 msgstr ""
 
+#: tasks/admin_module/__init__.py:105 tasks/admin_module/__init__.py:118
 msgid "Task Types"
 msgstr ""
 
+#: tasks/admin_module/__init__.py:123
 msgid "Show Task Types"
 msgstr ""
 
+#: tasks/admin_module/views/edit.py:82
 #, python-brace-format
 msgid "Changed assigment from {from_contact_name} to {to_contact_name}."
 msgstr ""
 
+#: tasks/admin_module/views/edit.py:155
 msgid "Set In Progress"
 msgstr ""
 
+#: tasks/admin_module/views/edit.py:166
 msgid "Set Completed"
 msgstr ""
 
+#: tasks/admin_module/views/edit.py:223
 msgid "Invalid status."
 msgstr ""
 
+#: tasks/admin_module/views/edit.py:232
 msgid "Status changed."
 msgstr ""
 
+#: tasks/admin_module/views/list.py:24 tasks/admin_module/views/list.py:68
 msgid "Name"
 msgstr ""
 
+#: tasks/admin_module/views/list.py:29 tasks/admin_module/views/list.py:73
 msgid "Filter by name..."
 msgstr ""
 
+#: tasks/admin_module/views/list.py:34
 msgid "Creator"
 msgstr ""
 
+#: tasks/admin_module/views/list.py:38
 msgid "Filter by creator..."
 msgstr ""
 
+#: tasks/admin_module/views/list.py:41
 msgid "Status"
 msgstr ""
 
+#: tasks/admin_module/views/list.py:42
 msgid "Priority"
 msgstr ""
 
+#: tasks/admin_module/views/list.py:43
 msgid "Comments"
 msgstr ""
 
+#: tasks/models.py:30
 msgid "New"
 msgstr ""
 
+#: tasks/models.py:31
 msgid "In progress"
 msgstr ""
 
+#: tasks/models.py:32
 msgid "Completed"
 msgstr ""
 
+#: tasks/models.py:33
 msgid "Deleted"
 msgstr ""
 
+#: tasks/models.py:42
 msgid "Public"
 msgstr ""
 
+#: tasks/models.py:43
 msgid "Staff Only"
 msgstr ""
 
+#: tasks/models.py:44
 msgid "Admins Only"
 msgstr ""
 
+#: tasks/models.py:50 tasks/models.py:86
 msgid "shop"
 msgstr ""
 
+#: tasks/models.py:52 tasks/models.py:87
 msgid "name"
 msgstr ""
 
+#: tasks/models.py:57 tasks/models.py:88
 msgid "task type"
 msgstr ""
 
+#: tasks/models.py:58
 msgid "task types"
 msgstr ""
 
+#: tasks/models.py:89
 msgid "status"
 msgstr ""
 
+#: tasks/models.py:90
 msgid "priority"
 msgstr ""
 
+#: tasks/models.py:96
 msgid "creator"
 msgstr ""
 
+#: tasks/models.py:103
 msgid "assigned to"
 msgstr ""
 
+#: tasks/models.py:110
 msgid "completed by"
 msgstr ""
 
+#: tasks/models.py:112
 msgid "completed on"
 msgstr ""
 
+#: tasks/models.py:113 tasks/models.py:187
 msgid "created on"
 msgstr ""
 
+#: tasks/models.py:114 tasks/models.py:188
 msgid "modified on"
 msgstr ""
 
+#: tasks/models.py:173
 msgid "task"
 msgstr ""
 
+#: tasks/models.py:178
 msgid "author"
 msgstr ""
 
+#: tasks/models.py:184
 msgid "visibility"
 msgstr ""
 
+#: tasks/models.py:186
 msgid "body"
-msgstr ""
-
-msgid "New Task"
-msgstr ""
-
-msgid "General Information"
-msgstr ""
-
-msgid "Created on"
-msgstr ""
-
-msgid "Completed on"
-msgstr ""
-
-msgid "Completed by"
-msgstr ""
-
-msgid "Author"
-msgstr ""
-
-msgid "Visibility"
-msgstr ""
-
-msgid "Comment"
-msgstr ""
-
-msgid "Post a new comment"
-msgstr ""
-
-msgid "New Task Type"
-msgstr ""
-
-msgid "Last 10 pending tasks assigned for you"
-msgstr ""
-
-msgid "Task"
 msgstr ""

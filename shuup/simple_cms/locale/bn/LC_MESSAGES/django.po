@@ -1,16 +1,16 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Tariq Mostahid <tariq@committers.com>, 2019.
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-12 11:39+0000\n"
+"POT-Creation-Date: 2019-06-16 14:35+0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Last-Translator: Tariq Mostahid <tariq@committers.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
@@ -18,161 +18,211 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
+#: simple_cms/__init__.py:16 simple_cms/admin_module/__init__.py:20
 msgid "Content Pages"
 msgstr ""
 
+#: simple_cms/admin_module/__init__.py:33
 msgid "Pages"
 msgstr ""
 
+#: simple_cms/admin_module/__init__.py:37
 msgid "Show pages"
 msgstr ""
 
+#: simple_cms/admin_module/__init__.py:44
 msgid "Add a web page"
 msgstr ""
 
+#: simple_cms/admin_module/__init__.py:46
 msgid "New page"
 msgstr ""
 
+#: simple_cms/admin_module/views.py:28 simple_cms/admin_module/views.py:211
+#: simple_cms/admin_module/views.py:220
 msgid "Available from"
 msgstr ""
 
+#: simple_cms/admin_module/views.py:29 simple_cms/admin_module/views.py:212
+#: simple_cms/admin_module/views.py:221
 msgid "Available to"
 msgstr ""
 
+#: simple_cms/admin_module/views.py:58
 msgid "Template"
 msgstr ""
 
+#: simple_cms/admin_module/views.py:89 simple_cms/models.py:174
 msgid "URL already exists."
 msgstr ""
 
+#: simple_cms/admin_module/views.py:92
 msgid "URL must be unique"
 msgstr ""
 
+#: simple_cms/admin_module/views.py:97
 #, python-format
 msgid "%(label)s is required when any %(language)s field is filled."
 msgstr ""
 
+#: simple_cms/admin_module/views.py:105
 msgid "Please fill at least one language fully."
 msgstr ""
 
+#: simple_cms/admin_module/views.py:112
 msgid "A page may not be made a child of itself."
 msgstr ""
 
+#: simple_cms/admin_module/views.py:202 simple_cms/models.py:218
+#: simple_cms/plugins.py:58
 msgid "Title"
 msgstr ""
 
+#: simple_cms/admin_module/views.py:213
 msgid "Created by"
 msgstr ""
 
+#: simple_cms/admin_module/views.py:214
 msgid "Date created"
 msgstr ""
 
+#: simple_cms/admin_module/views.py:219
 msgid "Page"
 msgstr ""
 
+#: simple_cms/layout.py:15
 msgid "Content in this placeholder is shown for this page only."
 msgstr ""
 
+#: simple_cms/layout.py:21
 #, python-format
 msgid "Content in this placeholder is shown for %(title)s only."
 msgstr ""
 
+#: simple_cms/models.py:32
 msgid "Website"
 msgstr ""
 
+#: simple_cms/models.py:33
 msgid "Article"
 msgstr ""
 
+#: simple_cms/models.py:67
 msgid "shop"
 msgstr ""
 
+#: simple_cms/models.py:68
 msgid "supplier"
 msgstr ""
 
+#: simple_cms/models.py:71
 msgid "available from"
 msgstr ""
 
+#: simple_cms/models.py:72
 msgid ""
 "Set an available from date to restrict the page to be available only after a "
 "certain date and time. This is useful for pages describing sales campaigns "
 "or other time-sensitive pages."
 msgstr ""
 
+#: simple_cms/models.py:78
 msgid "available to"
 msgstr ""
 
+#: simple_cms/models.py:79
 msgid ""
 "Set an available to date to restrict the page to be available only after a "
 "certain date and time. This is useful for pages describing sales campaigns "
 "or other time-sensitive pages."
 msgstr ""
 
+#: simple_cms/models.py:86
 msgid "created by"
 msgstr ""
 
+#: simple_cms/models.py:90
 msgid "modified by"
 msgstr ""
 
+#: simple_cms/models.py:93
 msgid "created on"
 msgstr ""
 
+#: simple_cms/models.py:94
 msgid "modified on"
 msgstr ""
 
+#: simple_cms/models.py:98
 msgid "This identifier can be used in templates to create URLs"
 msgstr ""
 
+#: simple_cms/models.py:102
 msgid "visible in menu"
 msgstr ""
 
+#: simple_cms/models.py:103
 msgid ""
 "Check this if this page should have a link in the top menu of the store "
 "front."
 msgstr ""
 
+#: simple_cms/models.py:106
 msgid "parent"
 msgstr ""
 
+#: simple_cms/models.py:107
 msgid ""
 "Set this to a parent page if this page should be subcategorized under "
 "another page."
 msgstr ""
 
+#: simple_cms/models.py:109
 msgid "list children on page"
 msgstr ""
 
+#: simple_cms/models.py:110
 msgid "Check this if this page should list its children pages."
 msgstr ""
 
+#: simple_cms/models.py:112
 msgid "show child page timestamps"
 msgstr ""
 
+#: simple_cms/models.py:113
 msgid ""
 "Check this if you want to show timestamps on the child pages. Please note, "
 "that this requires the children to be listed on the page as well."
 msgstr ""
 
+#: simple_cms/models.py:116
 msgid "deleted"
 msgstr ""
 
+#: simple_cms/models.py:119
 msgid "title"
 msgstr ""
 
+#: simple_cms/models.py:120
 msgid "The page title. This is shown anywhere links to your page are shown."
 msgstr ""
 
+#: simple_cms/models.py:123
 msgid "URL"
 msgstr ""
 
+#: simple_cms/models.py:128
 msgid ""
 "The page url. Choose a descriptive url so that search engines can rank your "
 "page higher. Often the best url is simply the page title with spaces "
 "replaced with dashes."
 msgstr ""
 
+#: simple_cms/models.py:132
 msgid "content"
 msgstr ""
 
+#: simple_cms/models.py:133
 msgid ""
 "The page content. This is the text that is displayed when customers click on "
 "your page link.You can leave this empty and add all page content through "
@@ -180,91 +230,103 @@ msgid ""
 "the Snippet plugin which is in shop front editor."
 msgstr ""
 
+#: simple_cms/models.py:140
 msgid "Template path"
 msgstr ""
 
+#: simple_cms/models.py:143
 msgid "render title"
 msgstr ""
 
+#: simple_cms/models.py:144
 msgid "Check this if this page should have a visible title"
 msgstr ""
 
+#: simple_cms/models.py:151 simple_cms/models.py:208
 msgid "page"
 msgstr ""
 
+#: simple_cms/models.py:152
 msgid "pages"
 msgstr ""
 
+#: simple_cms/models.py:200
 msgid "Untitled"
 msgstr ""
 
+#: simple_cms/models.py:211
 msgid "Image"
 msgstr ""
 
+#: simple_cms/models.py:214
 msgid "The image of your object."
 msgstr ""
 
+#: simple_cms/models.py:216
 msgid "type"
 msgstr ""
 
+#: simple_cms/models.py:219
 msgid ""
 "The title of your object as it should appear within the graph, e.g. The Rock."
 msgstr ""
 
+#: simple_cms/models.py:221
 msgid "Description"
 msgstr ""
 
+#: simple_cms/models.py:222
 msgid "A one to two sentence description of your object."
 msgstr ""
 
+#: simple_cms/models.py:224
 msgid "Section"
 msgstr ""
 
+#: simple_cms/models.py:225
 msgid ""
 "A high-level section name, e.g. Technology. Only applicable when type is "
 "Article."
 msgstr ""
 
+#: simple_cms/models.py:227
 msgid "Tags"
 msgstr ""
 
+#: simple_cms/models.py:228
 msgid ""
 "Tag words associated with this article. Only applicable when type is Article."
 msgstr ""
 
+#: simple_cms/models.py:230
 msgid "Article author"
 msgstr ""
 
+#: simple_cms/models.py:231
 msgid ""
 "The name of the author for the article. Only applicable when type is Article."
 msgstr ""
 
+#: simple_cms/plugins.py:54
 msgid "CMS Page Links"
 msgstr ""
 
+#: simple_cms/plugins.py:60
 msgid "Show all pages"
 msgstr ""
 
+#: simple_cms/plugins.py:63
 msgid "All pages are shown, even if not selected"
 msgstr ""
 
+#: simple_cms/plugins.py:66
 msgid "Hide expired pages"
 msgstr ""
 
+#: simple_cms/templates.py:12
 msgid "Default Page"
 msgstr ""
 
+#: simple_cms/templates.py:17
 msgid "Page with sidebar"
-msgstr ""
-
-msgid ""
-"Fill the fields below to add extra OpenGraph information to the page meta.\n"
-"        If not informed, some values will be inferred from the page "
-"attributes."
-msgstr ""
-
-msgid "New Page"
-msgstr ""
-
-msgid "Home"
 msgstr ""

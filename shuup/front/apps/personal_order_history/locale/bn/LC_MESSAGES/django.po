@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-12 11:39+0000\n"
+"POT-Creation-Date: 2019-06-16 14:35+0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,109 +18,14 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
+#: front/apps/personal_order_history/__init__.py:16
 msgid "Shuup Frontend - Personal Order History"
 msgstr ""
 
+#: front/apps/personal_order_history/dashboard_items.py:15
 msgid "Order history"
 msgstr ""
 
+#: front/apps/personal_order_history/dashboard_items.py:18
 msgid "Show all"
-msgstr ""
-
-msgid "Identifier"
-msgstr ""
-
-msgid "Order date"
-msgstr ""
-
-msgid "Status"
-msgstr ""
-
-msgid "Total price"
-msgstr ""
-
-msgid "Details"
-msgstr ""
-
-msgid "You haven't made any orders yet."
-msgstr ""
-
-msgid "Add all products to cart"
-msgstr ""
-
-msgid "Basic Information"
-msgstr ""
-
-msgid "Order Number"
-msgstr ""
-
-msgid "Order Date"
-msgstr ""
-
-msgid "Reference"
-msgstr ""
-
-msgid "Label"
-msgstr ""
-
-msgid "Customer"
-msgstr ""
-
-msgid "Ordered by"
-msgstr ""
-
-msgid "Creator"
-msgstr ""
-
-msgid "Phone"
-msgstr ""
-
-msgid "Email"
-msgstr ""
-
-msgid "Tax Number"
-msgstr ""
-
-msgid "Total Price"
-msgstr ""
-
-msgid "Total Price (taxless)"
-msgstr ""
-
-msgid "Tracking codes"
-msgstr ""
-
-msgid "Order Status"
-msgstr ""
-
-msgid "Payment Status"
-msgstr ""
-
-msgid "Shipping Status"
-msgstr ""
-
-msgid "Shipping Address"
-msgstr ""
-
-msgid "Billing Address"
-msgstr ""
-
-msgid "Order Contents"
-msgstr ""
-
-#, python-format
-msgid "Order %(identifier)s"
-msgstr ""
-
-#, python-format
-msgid "Details of order %(identifier)s"
-msgstr ""
-
-msgid "Home"
-msgstr ""
-
-msgid "Dashboard"
-msgstr ""
-
-msgid "Order History"
 msgstr ""

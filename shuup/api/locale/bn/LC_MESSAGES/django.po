@@ -8,10 +8,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-16 14:35+0600\n"
+"POT-Creation-Date: 2019-06-19 11:18+0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Tariq Mostahid <tariq@committers.com>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language-Team: bn\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,32 +20,92 @@ msgstr ""
 
 #: api/admin_module/__init__.py:18 api/admin_module/__init__.py:32
 msgid "API"
-msgstr ""
+msgstr "এপিআই"
 
 #: api/admin_module/forms.py:22
 msgid "Disabled"
-msgstr ""
+msgstr "অকেজো"
 
 #: api/admin_module/forms.py:23
 msgid "Admin Users"
-msgstr ""
+msgstr "অ্যাডমিন ব্যবহারকারী"
 
 #: api/admin_module/forms.py:24
 msgid "Authenticated Users - Read/Write"
-msgstr ""
+msgstr "অনুমোদিত ব্যবহারকারী - রিড/রাইট"
 
 #: api/admin_module/forms.py:25
 msgid "Authenticated Users - Read only"
-msgstr ""
+msgstr "অনুমোদিত ব্যবহারকারী - শুধুমাত্র রিড"
 
 #: api/admin_module/forms.py:26
 msgid "Public Users - Read/Write"
-msgstr ""
+msgstr "সর্বজনীন ব্যবহারকারী - রিড/রাইট"
 
 #: api/admin_module/forms.py:27
 msgid "Public Users - Read only"
-msgstr ""
+msgstr "সর্বজনীন ব্যবহারকারী - শুধুমাত্র রিড"
 
 #: api/admin_module/views/permissions.py:23
 msgid "API permissions saved"
+msgstr "এপিআইয়ের অনুমতি সংরক্ষিত"
+
+msgid "API Permissions"
+msgstr "এপিআইয়ের অনুমতি"
+
+msgid "Configure API permissions"
+msgstr "এপিআইয়ের অনুমতি কনফিগার করুন"
+
+msgid ""
+ "Please, configure the API permission level for each service by selecting "
+ "the level below."
 msgstr ""
+"এপিআইয়ের অনুমতি স্তর কনফিগার করতে দয়া করে, নীচের স্তর থেকে প্রতিটি পরিষেবার "
+"জন্য অনুমতি স্তর নির্বাচন করুন।"
+
+msgid "Note:"
+msgstr "মন্তব্য:"
+
+msgid "No one can make requests."
+msgstr "কেউ অনুরোধ করতে পারবেনা।"
+
+msgid "Admin users"
+msgstr "অ্যাডমিন ব্যবহারকারী"
+
+msgid ""
+"Only administrators can make requests to the API to fetch, save, delete "
+"or update data."
+msgstr ""
+"শুধুমাত্র অ্যাডমিনিস্ট্রেটররা এপিআইয়ে অনুরোধ পাঠাতে পারেন তথ্য সংগ্রহ, সংরক্ষণ, "
+"মুছতে বা আপডেট করতে।"
+
+msgid "Authenticated users - Read/Write"
+msgstr "অনুমোদিত ব্যবহারকারী - রিড/রাইট"
+
+msgid "Any authenticated user can fetch, save, delete or update data."
+msgstr ""
+"কোন প্রমাণিত ব্যবহারকারী তথ্য সংগ্রহ, সংরক্ষণ, মুছে ফেলা বা আপডেট করতে পারেন।"
+
+msgid "Authenticated users - Read"
+msgstr "অনুমোদিত ব্যবহারকারী - শুধুমাত্র রিড"
+
+msgid "Any authenticated user can only fetch data."
+msgstr "কোন প্রমাণিত ব্যবহারকারী শুধুমাত্র তথ্য সংগ্রহ করতে পারেন।"
+
+msgid "Public users - Read/Write"
+msgstr "সর্বজনীন ব্যবহারকারী - রিড/রাইট"
+
+msgid ""
+"Any user (authenticated or not) can fetch, save, delete or update data."
+msgstr ""
+"যেকোন ব্যবহারকারী (অনুমোদিত বা না) তথ্য সংগ্রহ, সংরক্ষণ, মুছতে বা আপডেট করতে "
+"পারে।"
+
+msgid "Use this with caution."
+msgstr "এটি সাবধানতার সাথে ব্যবহার করুন।"
+
+msgid "Public users - Read"
+msgstr "সর্বজনীন ব্যবহারকারী - শুধুমাত্র রিড"
+
+msgid "Any user (authenticated or not) can only fetch data."
+msgstr "যেকোন ব্যবহারকারী (অনুমোদিত বা না) শুধুমাত্র তথ্য সংগ্রহ করতে পারে।"

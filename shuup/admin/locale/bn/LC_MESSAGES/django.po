@@ -7,15 +7,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-16 14:35+0600\n"
-"PO-Revision-Date: 2019-06-16 19:47+0600\n"
+"POT-Creation-Date: 2019-06-19 11:18+0600\n"
+"PO-Revision-Date: 2019-06-20 18:30+0600\n"
 "Last-Translator: Tariq Mostahid <tariq@committers.com>\n"
+"Language-Team: \n"
 "Language: bn\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"Language-Team: \n"
 "X-Generator: Poedit 2.0.6\n"
 
 #: admin/breadcrumbs/_breadcrumbs.py:96
@@ -424,82 +424,82 @@ msgstr "মৌলিক তথ্য"
 
 #: admin/modules/contacts/sections.py:54
 msgid "Addresses"
-msgstr ""
+msgstr "ঠিকানাগুলো "
 
 #: admin/modules/contacts/sections.py:87
 #: admin/modules/permission_groups/views/edit.py:38
 msgid "Members"
-msgstr ""
+msgstr "সদস্যগুলো"
 
 #: admin/modules/contacts/views/detail.py:47
 msgid "The Shuup frontend is not enabled."
-msgstr ""
+msgstr "শুুপ ফ্রন্টেন্ড সক্রিয় নয়।"
 
 #: admin/modules/contacts/views/detail.py:49
 msgid "Contact has no associated user."
-msgstr ""
+msgstr "কন্টাকটের কোন অনুষঙ্গী ব্যবহারকারী নেই।"
 
 #: admin/modules/contacts/views/detail.py:51
 msgid "User has no associated email."
-msgstr ""
+msgstr "ব্যবহারকারীর কোন অনুষঙ্গী ইমেইল নেই।"
 
 #: admin/modules/contacts/views/detail.py:57
 msgid "Reset password"
-msgstr ""
+msgstr "পাসওয়ার্ড রিসেট করুন"
 
 #: admin/modules/contacts/views/detail.py:58
 msgid "Send a password renewal email."
-msgstr ""
+msgstr "একটি পাসওয়ার্ড পুনরূদ্ধার ইমেল পাঠান।"
 
 #: admin/modules/contacts/views/detail.py:59
 #, python-format
 msgid "Are you sure you wish to send a password recovery email to %s?"
-msgstr ""
+msgstr "আপনি কি %s তে পাসওয়ার্ড পুনরুদ্ধারের ই-মেইল পাঠাতে চান?"
 
 #: admin/modules/contacts/views/detail.py:70
 msgid "New User"
-msgstr ""
+msgstr "নতুন ব্যবহারকারী"
 
 #: admin/modules/contacts/views/detail.py:71
 msgid "Create a user for the contact."
-msgstr ""
+msgstr "যোগাযোগের জন্য একটি ব্যবহারকারী তৈরি করুন।"
 
 #: admin/modules/contacts/views/detail.py:80
 msgid "New Order"
-msgstr ""
+msgstr "নতুন অর্ডার"
 
 #: admin/modules/contacts/views/detail.py:81
 msgid "Create an order for the contact."
-msgstr ""
+msgstr "কন্টাক্টের জন্য একটি অর্ডার তৈরি করুন।"
 
 #: admin/modules/contacts/views/detail.py:93
 msgid "Deactivate Contact"
-msgstr ""
+msgstr "কন্টাক্ট নিষ্ক্রিয় করুন"
 
 #: admin/modules/contacts/views/detail.py:93
 msgid "Activate Contact"
-msgstr ""
+msgstr "কন্টাক্ট সক্রিয় করুন"
 
 #: admin/modules/contacts/views/detail.py:110
 msgid "Options"
-msgstr ""
+msgstr "বিকল্পগুলো"
 
 #: admin/modules/contacts/views/detail.py:126 admin/modules/orders/toolbar.py:48
 #: admin/modules/products/views/toolbars.py:80 admin/modules/users/views/detail.py:184
 msgid "Actions"
-msgstr ""
+msgstr "ক্রিয়াকলাপ"
 
 #: admin/modules/contacts/views/detail.py:141
 msgid "Edit"
-msgstr ""
+msgstr "সম্পাদনা করুন"
 
 #: admin/modules/contacts/views/detail.py:199 admin/modules/users/views/detail.py:308
 msgid "You can not deactivate a superuser."
-msgstr ""
+msgstr "আপনি একটি সুপারউসারকে নিষ্ক্রিয় করতে পারবেন না।"
 
 #: admin/modules/contacts/views/detail.py:201 admin/modules/users/views/detail.py:310
 msgid "You can not deactivate yourself."
-msgstr ""
+msgstr "আপনি নিজেকে নিষ্ক্রিয় করতে পারবেন না।"
 
 #: admin/modules/contacts/views/detail.py:205
 #, python-format
@@ -508,284 +508,284 @@ msgstr ""
 
 #: admin/modules/contacts/views/detail.py:207 admin/modules/users/views/detail.py:316
 msgid "active"
-msgstr ""
+msgstr "সক্রিয়"
 
 #: admin/modules/contacts/views/detail.py:207 admin/modules/users/views/detail.py:316
 msgid "inactive"
-msgstr ""
+msgstr "নিষ্ক্রিয়"
 
 #: admin/modules/contacts/views/edit.py:98
 msgid "New Company"
-msgstr ""
+msgstr "নতুন কোম্পানি"
 
 #: admin/modules/contacts/views/edit.py:98 admin/modules/users/views/detail.py:177
 msgid "New Contact"
-msgstr ""
+msgstr "নতুন কন্টাক্ট"
 
 #: admin/modules/contacts/views/list.py:29 admin/modules/contacts/views/list.py:110
 msgid "Person"
-msgstr ""
+msgstr "ব্যক্তি"
 
 #: admin/modules/contacts/views/list.py:29 admin/modules/contacts/views/list.py:112
 msgid "Company"
-msgstr ""
+msgstr "কোম্পানি"
 
 #: admin/modules/contacts/views/list.py:45 admin/modules/users/views/list.py:25
 msgid "Email"
-msgstr ""
+msgstr "ই-মেইল"
 
 #: admin/modules/contacts/views/list.py:46
 msgid "Phone"
-msgstr ""
+msgstr "ফোন"
 
 #: admin/modules/contacts/views/list.py:49 admin/modules/contacts/views/list.py:131
 #: admin/modules/orders/views/status.py:85 admin/modules/users/views/list.py:30
 #: admin/modules/users/views/list.py:63
 msgid "Active"
-msgstr ""
+msgstr "সক্রিয়"
 
 #: admin/modules/contacts/views/list.py:50 admin/modules/orders/views/status.py:83
 #: admin/modules/orders/views/status.py:85 admin/modules/users/views/list.py:31
 #: admin/utils/picotable.py:258
 msgid "no"
-msgstr ""
+msgstr "না"
 
 #: admin/modules/contacts/views/list.py:50 admin/modules/orders/views/status.py:83
 #: admin/modules/orders/views/status.py:85 admin/modules/users/views/list.py:31
 #: admin/utils/picotable.py:259
 msgid "yes"
-msgstr ""
+msgstr "হ্যা"
 
 #: admin/modules/contacts/views/list.py:52
 msgid "# Orders"
-msgstr ""
+msgstr "# অর্ডারগুলো"
 
 #: admin/modules/contacts/views/list.py:53
 msgid "Groups"
-msgstr ""
+msgstr "গোষ্ঠীগুলো"
 
 #: admin/modules/contacts/views/list.py:57
 msgid "Registered in"
-msgstr ""
+msgstr "নিবন্ধিত"
 
 #: admin/modules/contacts/views/list.py:114 admin/modules/contacts/views/list.py:137
 msgid "Contact"
-msgstr ""
+msgstr "কন্টাক্ট"
 
 #: admin/modules/contacts/views/list.py:118
 msgid "No group"
-msgstr ""
+msgstr "কোন গ্রুপ নেই"
 
 #: admin/modules/contacts/views/list.py:123
 msgid "No shops"
-msgstr ""
+msgstr "কোন দোকান নেই"
 
 #: admin/modules/contacts/views/list.py:131 admin/modules/users/views/list.py:63
 msgid "Inactive"
-msgstr ""
+msgstr "নিষ্ক্রিয়"
 
 #: admin/modules/contacts/views/list.py:132 admin/modules/users/views/list.py:64
 #, python-format
 msgid "Email: %s"
-msgstr ""
+msgstr "ই-মেইল : %s"
 
 #: admin/modules/contacts/views/list.py:133
 #, python-format
 msgid "Phone: %s"
-msgstr ""
+msgstr "ফোন: %s"
 
 #: admin/modules/contacts/views/list.py:134
 #, python-format
 msgid "%d orders"
-msgstr ""
+msgstr "%d অর্ডারগুলো"
 
 #: admin/modules/contacts/views/mass_edit.py:21
 msgid "Mass Edit: Contacts"
-msgstr ""
+msgstr "গণ সম্পাদনা: কন্টাক্টগুলো"
 
 #: admin/modules/contacts/views/mass_edit.py:36
 msgid "Contacts changed successfully"
-msgstr ""
+msgstr "গণ সম্পাদনা: যোগাযোগ গ্রুপ সফলভাবে পরিবর্তিত হয়েছে"
 
 #: admin/modules/contacts/views/mass_edit.py:42
 msgid "Mass Edit: Contact Groups"
-msgstr ""
+msgstr "গণ সম্পাদনা: কন্টাক্ট গোষ্ঠীগুলো"
 
 #: admin/modules/contacts/views/mass_edit.py:53
 msgid "Contacts Groups changed successfully"
-msgstr ""
+msgstr "কন্টাক্ট গোষ্ঠীগুলো সফলভাবে পরিবর্তন হয়েছে"
 
 #: admin/modules/contacts/views/reset.py:27
 msgid "The contact does not have an associated user."
-msgstr ""
+msgstr "কন্টাকটের একটিও অনুষঙ্গী ব্যবহারকারী নেই।"
 
 #: admin/modules/currencies/__init__.py:19
 msgid "Currencies"
-msgstr ""
+msgstr "মুদ্রা"
 
 #: admin/modules/currencies/views/list.py:24 admin/modules/taxes/views/list.py:37
 msgid "Code"
-msgstr ""
+msgstr "কোড"
 
 #: admin/modules/currencies/views/list.py:27
 msgid "Filter by code"
-msgstr ""
+msgstr "কোড দ্বারা ফিল্টার করুন"
 
 #: admin/modules/currencies/views/list.py:32
 msgid "Decimal places"
-msgstr ""
+msgstr "দশমিক স্থান"
 
 #: admin/modules/customers_dashboard/__init__.py:16
 msgid "Customers Dashboard"
-msgstr ""
+msgstr "গ্রাহক ড্যাশবোর্ড"
 
 #: admin/modules/customers_dashboard/dashboard.py:21
 msgid "Active customers"
-msgstr ""
+msgstr "সক্রিয় গ্রাহকগুলো"
 
 #: admin/modules/customers_dashboard/dashboard.py:24
 msgid "Based on orders within 30 days"
-msgstr ""
+msgstr "৩০ দিনের মধ্যের অর্ডারের উপর ভিত্তি করে"
 
 #: admin/modules/labels/__init__.py:19
 msgid "Labels"
-msgstr ""
+msgstr "Labels"
 
 #: admin/modules/labels/views.py:31
 msgid "Created on"
-msgstr ""
+msgstr "তৈরি হয়েছে "
 
 #: admin/modules/labels/views.py:32
 msgid "Modified on"
-msgstr ""
+msgstr "সংশোধন করা হয়েছে"
 
 #: admin/modules/manufacturers/__init__.py:19
 #: admin/modules/manufacturers/__init__.py:32
 msgid "Manufacturers"
-msgstr ""
+msgstr "প্রস্তুতকারকগুলো "
 
 #: admin/modules/manufacturers/views/edit.py:35
 msgid "Select shops for this manufacturer. Keep it blank to share with all shops."
-msgstr ""
+msgstr "এই প্রস্তুতকারকের জন্য দোকান নির্বাচন করুন। সব দোকান সঙ্গে শেয়ার করতে এটা ফাঁকা রাখুন।"
 
 #: admin/modules/manufacturers/views/edit.py:50
 msgid "You have no permission to change a shared Manufacturer."
-msgstr ""
+msgstr "আপনার একটি শেয়ার্ড প্রস্তুতকারক পরিবর্তন করার অনুমতি নেই।"
 
 #: admin/modules/manufacturers/views/list.py:24 admin/modules/shops/views/list.py:23
 msgid "Logo"
-msgstr ""
+msgstr "লোগো"
 
 #: admin/modules/media/__init__.py:21
 msgid "Media"
-msgstr ""
+msgstr "মিডিয়া"
 
 #: admin/modules/media/__init__.py:40
 msgid "Media browser"
-msgstr ""
+msgstr "মিডিয়া ব্রাউজার"
 
 #: admin/modules/media/utils.py:24 admin/modules/media/views.py:69
 #: admin/modules/media/views.py:127
 msgid "Root"
-msgstr ""
+msgstr "রুট"
 
 #: admin/modules/media/utils.py:32
 #, python-brace-format
 msgid "{num} subfolders moved to {folder}."
-msgstr ""
+msgstr "{num} টি সাবফোল্ডার {folder} এ সরানো হয়েছে।"
 
 #: admin/modules/media/utils.py:38
 #, python-brace-format
 msgid "{num} files moved to {folder}."
-msgstr ""
+msgstr "{num} টি ফাইল {folder} এ সরানো হয়েছে।"
 
 #: admin/modules/media/utils.py:43
 #, python-format
 msgid "Folder %s deleted."
-msgstr ""
+msgstr "ফোল্ডার %s মুছে ফেলা হয়েছে।"
 
 #: admin/modules/media/views.py:150
 msgid "Browse Media"
-msgstr ""
+msgstr "মিডিয়া ব্রাউজ করুন"
 
 #: admin/modules/media/views.py:250
 msgid "Can not rename shared folder."
-msgstr ""
+msgstr "শেয়ার্ড ফোল্ডারের নাম পরিবর্তন করা যাবে না।"
 
 #: admin/modules/media/views.py:255
 msgid "Folder renamed."
-msgstr ""
+msgstr "ফোল্ডার নাম পরিবর্তন হয়েছে।"
 
 #: admin/modules/media/views.py:261
 msgid "Can not delete shared folder."
-msgstr ""
+msgstr "শেয়ার্ড ফোল্ডার মুছে ফেলা যাবে না।"
 
 #: admin/modules/media/views.py:272
 msgid "Can not rename shared file."
-msgstr ""
+msgstr "শেয়ার্ড ফাইলের নাম পরিবর্তন করা যাবে না।"
 
 #: admin/modules/media/views.py:277
 msgid "File renamed."
-msgstr ""
+msgstr "ফাইলের নাম পরিবর্তন হয়েছে।"
 
 #: admin/modules/media/views.py:283
 msgid "Can not delete shared file."
-msgstr ""
+msgstr "শেয়ার্ড ফাইল সরানো যাবে না।"
 
 #: admin/modules/media/views.py:290
 msgid "File deleted."
-msgstr ""
+msgstr "ফাইল মুছে ফেলা হয়েছে।"
 
 #: admin/modules/media/views.py:296
 msgid "Can not move shared file."
-msgstr ""
+msgstr "ফাইলের সরানো যাবে না।"
 
 #: admin/modules/media/views.py:309
-#, python-format
+#, fuzzy, python-format
 msgid "%(file)s moved from %(old)s to %(new)s."
-msgstr ""
+msgstr "%(file)s %(old)s থেকে %(new)s তে সরানো হয়েছে।"
 
 #: admin/modules/media/views.py:345
 #, python-format
 msgid "%(file)s uploaded to %(folder)s"
-msgstr ""
+msgstr "%(file)sগুলি %(folder)s এ আপলোড করা হয়েছে"
 
 #: admin/modules/menu/__init__.py:21 admin/modules/menu/__init__.py:42
 msgid "Admin menu"
-msgstr ""
+msgstr "অ্যাডমিন মেনু"
 
 #: admin/modules/menu/views/arrange.py:43
 msgid "Menu saved"
-msgstr ""
+msgstr "মেনু সংরক্ষিত"
 
 #: admin/modules/menu/views/arrange.py:56
 msgid "Menu reset"
-msgstr ""
+msgstr "মেনু পুনরায় সেট করুন"
 
 #: admin/modules/orders/__init__.py:121
 msgid "Show orders"
-msgstr ""
+msgstr "অর্ডারগুলো প্রদর্শন করুন"
 
 #: admin/modules/orders/__init__.py:154
 msgid "Outstanding Orders"
-msgstr ""
+msgstr "অউটস্টান্ডিং অর্ডারগুলো"
 
 #: admin/modules/orders/__init__.py:155
 #, python-format
 msgid "%d outstanding orders"
-msgstr ""
+msgstr "%d টি অউটস্টান্ডিং অর্ডার"
 
 #: admin/modules/orders/__init__.py:166 admin/modules/orders/__init__.py:171
 msgid "New order"
-msgstr ""
+msgstr "নতুন অর্ডার"
 
 #: admin/modules/orders/__init__.py:181 admin/modules/orders/__init__.py:194
 msgid "Order Status"
-msgstr ""
+msgstr "অর্ডারের অবস্থা"
 
 #: admin/modules/orders/__init__.py:199
 msgid "List Statuses"
-msgstr ""
+msgstr "তালিকা স্থিতি"
 
 #: admin/modules/orders/json_order_creator.py:75
 #, python-format
